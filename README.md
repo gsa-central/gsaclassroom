@@ -22,7 +22,7 @@ if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
 ## 2. Run the app:
 ```
 ##############################################################################
-# Copy and paste the following code to R in order to run GSARefDB:
+# Copy and paste the following code to R in order to run "GSA classroom":
 ##############################################################################
 
 library(shiny)
