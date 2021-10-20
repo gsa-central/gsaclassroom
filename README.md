@@ -13,7 +13,7 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 	install.packages("BiocManager", dependencies = TRUE)
 	
 requiredPackages <- c("shiny", "shinythemes", "DT", "hms", "reshape2","readr", "readxl", 
-                      "tidyverse", "ggpubr", "xfun")
+                      "tidyverse")
 
 newPackages <- requiredPackages[!(requiredPackages %in% installed.packages()[,"Package"])]
 if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
