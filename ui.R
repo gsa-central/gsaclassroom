@@ -12,7 +12,7 @@ shinyUI(fluidPage(
       div(img(src="GSACENTRAL_Logo.png", width = "100px", height = "50px"),
               style = "padding-left:5px;"),
       class = "text-center",
-      span(strong(h4("Last updated: October 15th, 2021")),
+      span(strong(h4("Last updated: October 29th, 2021")),
            style = "color:gray"))
 ))
 
