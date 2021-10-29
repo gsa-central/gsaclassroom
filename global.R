@@ -10,7 +10,7 @@ library(readxl)
 file = "data/videos.xlsx"
 
 ## openxlsx::read.xlsx(file,1, startRow=5)
-vdata <- readxl::read_excel(file, sheet = 1, range = "A1:G31")
+vdata <- readxl::read_excel(file, sheet = 1, range = "A1:G78")
 
 
 
