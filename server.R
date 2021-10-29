@@ -9,6 +9,7 @@ shinyServer(function(input, output, session){
     DT::datatable(data(),
                   rownames = FALSE,
                   selection = "none",
+                  escape = FALSE,
                   options = list(autoFill = TRUE,
                                  searchHighlight = TRUE,
                                  paging = TRUE,
